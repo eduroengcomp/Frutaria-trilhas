@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frutaria do Edu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Frutaria do Edu</h1>
+    <p>Simulador de compras · Desafio 1 da Trilha de Desenvolvimento Mobile</p>
+  </header>
+
+  <main>
+    <p>Nessa frutaria, você escolhe as quantidades de frutas frescas e recebe o valor da compra.</p>
+
+    <h2>1. Confira os produtos</h2>
+    <p class="legenda">Preços por unidade</p>
+
+    <table>
+      <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+      </tr>
+      <tr>
+        <td>🍎 Maçã</td>
+        <td>R$ 2,50</td>
+      </tr>
+      <tr>
+        <td>🍌 Banana</td>
+        <td>R$ 1,50</td>
+      </tr>
+      <tr>
+        <td>🍊 Laranja</td>
+        <td>R$ 2,00</td>
+      </tr>
+      <tr>
+        <td>🍉 Melancia</td>
+        <td>R$ 15,00</td>
+      </tr>
+    </table>
+
+    <h2>2. Simule uma compra</h2>
+    <ol>
+      <li>Clique no botão abaixo.</li>
+      <li>Informe a quantidade de cada fruta, de 0 a 99. Use <strong>0</strong> para não comprar a fruta.</li>
+      <li>Confira o total da sua compra.</li>
+    </ol>
+    <p>Use números inteiros. Para sair sem concluir, clique em <strong>Cancelar</strong> em qualquer pergunta.</p>
+    <p><strong>Desconto:</strong> compras a partir de R$ 50,00 ganham 10% de desconto.</p>
+
+    <button onclick="simularCompra()">Simular minha compra</button>
+  </main>
+
+  <footer>
+    <p>Eduardo Gabriel Sousa Borges · Trilhas 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
